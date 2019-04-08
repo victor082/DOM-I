@@ -60,18 +60,23 @@ button.textContent = siteContent.cta.button;
 
 const features = document.querySelectorAll('h4')[0];
 features.textContent = siteContent['main-content']['features-h4'];
+features.style.color = 'blue';
 
 const about = document.querySelectorAll('h4')[1];
 about.textContent = siteContent['main-content']['about-h4'];
+about.style.color = 'blue';
 
 const services = document.querySelectorAll('h4')[2];
 services.textContent = siteContent['main-content']['services-h4'];
+services.style.color = 'blue';
 
 const product = document.querySelectorAll('h4')[3];
 product.textContent = siteContent['main-content']['product-h4'];
+product.style.color = 'blue';
 
 const vision = document.querySelectorAll('h4')[4];
 vision.textContent = siteContent['main-content']['vision-h4'];
+vision.style.color = 'blue';
 
 const para1 = document.querySelectorAll('p')[0];
 para1.textContent = siteContent['main-content']['features-content'];
@@ -106,12 +111,11 @@ nav[3].style.color = 'green';
 nav[4].style.color = 'green';
 nav[5].style.color = 'green';
 
-
 let navMenu = document.querySelector('nav');
 
 const navAppend = document.createElement('a');
 navAppend.innerText = 'Other';
-nav[6].style.color = 'green';
+navAppend.style.color = 'green';
 navMenu.append(navAppend);
 
 const navPrepend = document.createElement('a');
