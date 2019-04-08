@@ -120,4 +120,5 @@ navMenu.append(navAppend);
 
 const navPrepend = document.createElement('a');
 navPrepend.innerText = 'Home';
+navPrepend.style.color = 'green';
 navMenu.prepend(navPrepend);
