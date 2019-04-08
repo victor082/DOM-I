@@ -90,3 +90,11 @@ para5.textContent = siteContent['main-content']['vision-content'];
 
 const contactHeader = document.querySelectorAll('h4')[5];
 contactHeader.textContent = siteContent['contact']['contact-h4'];
+
+const contactStuff = document.querySelectorAll('.contact p');
+contactStuff[0].textContent = siteContent["contact"]["address"];
+contactStuff[1].textContent = siteContent["contact"]["phone"];
+contactStuff[2].textContent = siteContent["contact"]["email"];
+
+let footer = document.querySelector ('footer p');
+footer.textContent = siteContent["footer"]["copyright"];
