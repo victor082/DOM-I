@@ -98,3 +98,22 @@ contactStuff[2].textContent = siteContent["contact"]["email"];
 
 let footer = document.querySelector ('footer p');
 footer.textContent = siteContent["footer"]["copyright"];
+
+nav[0].style.color = 'green';
+nav[1].style.color = 'green';
+nav[2].style.color = 'green';
+nav[3].style.color = 'green';
+nav[4].style.color = 'green';
+nav[5].style.color = 'green';
+
+
+let navMenu = document.querySelector('nav');
+
+const navAppend = document.createElement('a');
+navAppend.innerText = 'Other';
+nav[6].style.color = 'green';
+navMenu.append(navAppend);
+
+const navPrepend = document.createElement('a');
+navPrepend.innerText = 'Home';
+navMenu.prepend(navPrepend);
