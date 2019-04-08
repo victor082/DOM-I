@@ -43,3 +43,12 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 const ctaImg = document.getElementById("cta-img");
 ctaImg.setAttribute('src', siteContent['cta']['img-src'])
+
+const middleImg = document.getElementById("middle-img");
+middleImg.setAttribute('src', siteContent['main-content']['middle-img-src'])
+
+const nav = document.querySelectorAll('nav a');
+nav.forEach((link, i) => {
+  link.textContent = siteContent.nav[`nav-item-${i+1}`]
+});
+
