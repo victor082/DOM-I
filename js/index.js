@@ -52,3 +52,8 @@ nav.forEach((link, i) => {
   link.textContent = siteContent.nav[`nav-item-${i+1}`]
 });
 
+const mainHeader = document.querySelector('h1');
+mainHeader.innerHTML = siteContent.cta.h1;
+
+const button = document.querySelector('button');
+button.textContent = siteContent.cta.button;
