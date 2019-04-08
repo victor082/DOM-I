@@ -57,3 +57,15 @@ mainHeader.innerHTML = siteContent.cta.h1;
 
 const button = document.querySelector('button');
 button.textContent = siteContent.cta.button;
+
+const features = document.querySelectorAll('h4')[0];
+features.textContent = siteContent['main-content']['features-h4'];
+
+const about = document.querySelectorAll('h4')[1];
+about.textContent = siteContent['main-content']['about-h4'];
+
+const services = document.querySelectorAll('h4')[2];
+services.textContent = siteContent['main-content']['services-h4'];
+
+const product = document.querySelectorAll('h4')[3];
+product.textContent = siteContent['main-content']['product-h4'];
