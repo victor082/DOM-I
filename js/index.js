@@ -69,3 +69,24 @@ services.textContent = siteContent['main-content']['services-h4'];
 
 const product = document.querySelectorAll('h4')[3];
 product.textContent = siteContent['main-content']['product-h4'];
+
+const vision = document.querySelectorAll('h4')[4];
+vision.textContent = siteContent['main-content']['vision-h4'];
+
+const para1 = document.querySelectorAll('p')[0];
+para1.textContent = siteContent['main-content']['features-content'];
+
+const para2 = document.querySelectorAll('p')[1];
+para2.textContent = siteContent['main-content']['about-content'];
+
+const para3 = document.querySelectorAll('p')[2];
+para3.textContent = siteContent['main-content']['services-content'];
+
+const para4 = document.querySelectorAll('p')[3];
+para4.textContent = siteContent['main-content']['product-content'];
+
+const para5 = document.querySelectorAll('p')[4];
+para5.textContent = siteContent['main-content']['vision-content'];
+
+const contactHeader = document.querySelectorAll('h4')[5];
+contactHeader.textContent = siteContent['contact']['contact-h4'];
